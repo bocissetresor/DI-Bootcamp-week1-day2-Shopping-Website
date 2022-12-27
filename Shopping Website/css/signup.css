@@ -1,0 +1,329 @@
+@media screen and (max-width: 1366px) and (min-width: 1200px) {
+
+  .card {
+      width: 700px; /*1*/
+      margin-left: 300px ; /*auto; 2*/
+      height: 700px;
+      background-color: white; /*3*/
+      box-shadow: 5px 5px 20px #999; /*4*/
+      
+    }
+
+    .card a { /*5*/
+      color: #333; 
+      text-decoration: none;
+    }
+    .card:hover .card-image img { /*6*/
+      width: 160%;
+      filter: grayscale(0);
+    }
+
+    .card-image {
+      height: 250px;/*1*/
+      position: relative;/*2*/
+      overflow: hidden;/*3*/
+    }
+    .card-image img { 
+      width: 150%;/*4*/
+        /*5 - Méthode de centrage en fonction de la taille de l'image */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      filter: grayscale(1);/*6*/
+        /*7 - Transition */
+      transition-property: filter width; 
+      transition-duration: .3s;
+      transition-timing-function: ease;
+    }
+
+    .card-body {
+      text-align: center;/*1*/
+      padding: 15px 20px; /*2*/
+      box-sizing: border-box; /*3*/
+  }
+
+  .card-date {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .card-title, .card-excerpt {
+      font-family: 'Playfair Display', serif;
+    }
+    
+    .card-date, .card-title {
+      text-align:center;
+      text-transform:uppercase;
+      font-weight: bold;
+    }
+    
+    .card-date, .card-excerpt {
+      color: #777;
+    }
+
+    #fname, #lname, #username, #email, #password{
+      width: 50%;
+            padding: 4px 30px;
+            margin: 5px 0;
+            box-sizing: border-box;
+    }
+
+    #button {
+      background-color: #008CBA;
+      border: none;
+      color: white;
+      padding: 4px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    } /* Blue */
+  }
+
+  /* Seconde*/
+  @media screen and (max-width: 1200px) and (min-width: 992px) {
+    .card {
+      width: 700px; /*1*/
+      margin-left: 180px ; /*auto; 2*/
+      height: 700px;
+      background-color: white; /*3*/
+      box-shadow: 5px 5px 20px #999; /*4*/
+      
+    }
+
+    .card a { /*5*/
+      color: #333; 
+      text-decoration: none;
+    }
+    .card:hover .card-image img { /*6*/
+      width: 160%;
+      filter: grayscale(0);
+    }
+
+    .card-image {
+      height: 250px;/*1*/
+      position: relative;/*2*/
+      overflow: hidden;/*3*/
+    }
+    .card-image img { 
+      width: 150%;/*4*/
+        /*5 - Méthode de centrage en fonction de la taille de l'image */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      filter: grayscale(1);/*6*/
+        /*7 - Transition */
+      transition-property: filter width; 
+      transition-duration: .3s;
+      transition-timing-function: ease;
+    }
+
+    .card-body {
+      text-align: center;/*1*/
+      padding: 15px 20px; /*2*/
+      box-sizing: border-box; /*3*/
+  }
+
+  .card-date {
+      font-family: 'Source Sans Pro', sans-serif;
+    }
+    
+    .card-title, .card-excerpt {
+      font-family: 'Playfair Display', serif;
+    }
+    
+    .card-date, .card-title {
+      text-align:center;
+      text-transform:uppercase;
+      font-weight: bold;
+    }
+    
+    .card-date, .card-excerpt {
+      color: #777;
+    }
+
+    #fname, #lname, #username, #email, #password{
+      width: 50%;
+            padding: 4px 30px;
+            margin: 5px 0;
+            box-sizing: border-box;
+    }
+
+    #button {
+      background-color: #008CBA;
+      border: none;
+      color: white;
+      padding: 4px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+    } /* Blue */
+  }
+
+  /*Trois*/
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .card {
+    width: 500px; /*1*/
+    margin-left: 150px ; /*auto; 2*/
+    height: 700px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    
+  }
+
+  .card a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+  .card:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card-image {
+    height: 250px;/*1*/
+    position: relative;/*2*/
+    overflow: hidden;/*3*/
+  }
+  .card-image img { 
+    width: 150%;/*4*/
+      /*5 - Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(1);/*6*/
+      /*7 - Transition */
+    transition-property: filter width; 
+    transition-duration: .3s;
+    transition-timing-function: ease;
+  }
+
+  .card-body {
+    text-align: center;/*1*/
+    padding: 15px 20px; /*2*/
+    box-sizing: border-box; /*3*/
+}
+
+.card-date {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .card-title, .card-excerpt {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .card-date, .card-title {
+    text-align:center;
+    text-transform:uppercase;
+    font-weight: bold;
+  }
+  
+  .card-date, .card-excerpt {
+    color: #777;
+  }
+
+  #fname, #lname, #username, #email, #password{
+    width: 50%;
+          padding: 4px 30px;
+          margin: 5px 0;
+          box-sizing: border-box;
+  }
+
+  #button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  } /* Blue */
+}
+
+/* Quatre*/
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .card {
+    width: 500px; /*1*/
+    margin-left: 150px ; /*auto; 2*/
+    height: 700px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    
+  }
+
+  .card a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+  .card:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card-image {
+    height: 250px;/*1*/
+    position: relative;/*2*/
+    overflow: hidden;/*3*/
+  }
+  .card-image img { 
+    width: 150%;/*4*/
+      /*5 - Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(1);/*6*/
+      /*7 - Transition */
+    transition-property: filter width; 
+    transition-duration: .3s;
+    transition-timing-function: ease;
+  }
+
+  .card-body {
+    text-align: center;/*1*/
+    padding: 15px 20px; /*2*/
+    box-sizing: border-box; /*3*/
+}
+
+.card-date {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .card-title, .card-excerpt {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .card-date, .card-title {
+    text-align:center;
+    text-transform:uppercase;
+    font-weight: bold;
+  }
+  
+  .card-date, .card-excerpt {
+    color: #777;
+  }
+
+  #fname, #lname, #username, #email, #password{
+    width: 50%;
+          padding: 4px 30px;
+          margin: 5px 0;
+          box-sizing: border-box;
+  }
+
+  #button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 4px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  } /* Blue */
+}

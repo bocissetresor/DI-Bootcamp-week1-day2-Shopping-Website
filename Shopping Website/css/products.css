@@ -1,0 +1,789 @@
+@media screen and (max-width: 1366px) and (min-width: 1200px) {
+    .card {
+        width: 250px; /*1*/
+        margin-left: 15px ; /*auto; 2*/ 
+        float: left;
+        background-color: white; /*3*/
+        box-shadow: 5px 5px 20px #999; /*4*/
+      }
+
+      .card a { /*5*/
+        color: #333; 
+        text-decoration: none;
+      }
+      .card:hover .card-image img { /*6*/
+        width: 160%;
+        filter: grayscale(0);
+      }
+
+      .card-image {
+        height: 250px;/*1*/
+        position: relative;/*2*/
+        overflow: hidden;/*3*/
+      }
+      .card-image img {
+        width: 150%;/*4*/
+          /*5 - Méthode de centrage en fonction de la taille de l'image */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        filter: grayscale(1);/*6*/
+          /*7 - Transition */
+        transition-property: filter width; 
+        transition-duration: .3s;
+        transition-timing-function: ease;
+      }
+
+      .card-body {
+        text-align: center;/*1*/
+        padding: 15px 20px; /*2*/
+        box-sizing: border-box; /*3*/
+    }
+
+    .card-date {
+        font-family: 'Source Sans Pro', sans-serif;
+      }
+      
+      .card-title, .card-excerpt {
+        font-family: 'Playfair Display', serif;
+      }
+      
+      .card-date, .card-title {
+        text-align:center;
+        text-transform:uppercase;
+        font-weight: bold;
+      }
+      
+      .card-date, .card-excerpt {
+        color: #777;
+      }
+
+      .card_2 {
+        width: 250px; /*1*/
+        margin-left: 15px ; /*auto; 2*/
+        background-color: white; /*3*/
+        box-shadow: 5px 5px 20px #999; /*4*/
+        float: left;
+        
+      }
+
+      .card_2 a { /*5*/
+        color: #333; 
+        text-decoration: none;
+      }
+
+      .card_2:hover .card-image img { /*6*/
+        width: 160%;
+        filter: grayscale(0);
+      }
+
+      .card_3 {
+        width: 250px; /*1*/
+        margin-left: 15px ; /*auto; 2*/
+        background-color: white; /*3*/
+        box-shadow: 5px 5px 20px #999; /*4*/
+        float: left;
+      }
+
+      .card_3 a { /*5*/
+        color: #333; 
+        text-decoration: none;
+      }
+
+      .card_3:hover .card-image img { /*6*/
+        width: 160%;
+        filter: grayscale(0);
+      }
+
+      .card_4 {
+        width: 250px; /*1*/
+        margin-left: 15px ; /*auto; 2*/
+        background-color: white; /*3*/
+        box-shadow: 5px 5px 20px #999; /*4*/
+        float: left;
+      }
+
+      .card_4 a { /*5*/
+        color: #333; 
+        text-decoration: none;
+      }
+
+      .card_4:hover .card-image img { /*6*/
+        width: 160%;
+        filter: grayscale(0);
+      }
+
+
+      .card_5 {
+        width: 250px; /*1*/
+        margin-left: 15px ; /*auto; 2*/
+        margin-top: 35px;
+        float: left;
+        background-color: white; /*3*/
+        box-shadow: 5px 5px 20px #999; /*4*/
+      }
+
+      .card_5 a { /*5*/
+        color: #333; 
+        text-decoration: none;
+      }
+      .card_5:hover .card-image img { /*6*/
+        width: 160%;
+        filter: grayscale(0);
+      }
+
+      .card_6 {
+        width: 250px; /*1*/
+        margin-left: 15px ; /*auto; 2*/
+        margin-top: 35px;
+        background-color: white; /*3*/
+        box-shadow: 5px 5px 20px #999; /*4*/
+        float: left;
+        
+      }
+
+      .card_6 a { /*5*/
+        color: #333; 
+        text-decoration: none;
+      }
+
+      .card_6:hover .card-image img { /*6*/
+        width: 160%;
+        filter: grayscale(0);
+      }
+
+      .card_7 {
+        width: 250px; /*1*/
+        margin-left: 15px ; /*auto; 2*/
+        margin-top: 35px;
+        background-color: white; /*3*/
+        box-shadow: 5px 5px 20px #999; /*4*/
+        float: left;
+      }
+
+      .card_7 a { /*5*/
+        color: #333; 
+        text-decoration: none;
+      }
+
+      .card_7:hover .card-image img { /*6*/
+        width: 160%;
+        filter: grayscale(0);
+      }
+
+      .card_8 {
+        width: 250px; /*1*/
+        margin-left: 15px ; /*auto; 2*/
+        margin-top: 35px;
+        background-color: white; /*3*/
+        box-shadow: 5px 5px 20px #999; /*4*/
+        float: left;
+      }
+
+      .card_8 a { /*5*/
+        color: #333; 
+        text-decoration: none;
+      }
+
+      .card_8:hover .card-image img { /*6*/
+        width: 160%;
+        filter: grayscale(0);
+      }
+    }
+
+
+/* Seconde*/
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .card {
+    width: 250px; /*1*/
+    margin-left: 10px ; /*auto; 2*/ 
+    float: left;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+  }
+
+  .card a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  #produit{
+    width: 73%;
+  }
+
+  .card:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card-image {
+    height: 250px;/*1*/
+    position: relative;/*2*/
+    overflow: hidden;/*3*/
+  }
+  .card-image img {
+    width: 150%;/*4*/
+      /*5 - Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(1);/*6*/
+      /*7 - Transition */
+    transition-property: filter width; 
+    transition-duration: .3s;
+    transition-timing-function: ease;
+  }
+
+  .card-body {
+    text-align: center;/*1*/
+    padding: 15px 20px; /*2*/
+    box-sizing: border-box; /*3*/
+}
+
+.card-date {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .card-title, .card-excerpt {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .card-date, .card-title {
+    text-align:center;
+    text-transform:uppercase;
+    font-weight: bold;
+  }
+  
+  .card-date, .card-excerpt {
+    color: #777;
+  }
+
+  .card_2 {
+    width: 250px; /*1*/
+    margin-left: 10px ; /*auto; 2*/
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+    
+  }
+
+  .card_2 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_2:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+ 
+
+  .card_3 {
+    width: 250px; /*1*/
+    margin-left: 10px ; /*auto; 2*/
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_3 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_3:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_4 {
+    width: 250px; /*1*/
+    margin-left: 10px ; /*auto; 2*/
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_4 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_4:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+
+  .card_5 {
+    width: 250px; /*1*/
+    margin-left: 10px ; /*auto; 2*/
+    margin-top: 35px;
+    float: left;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+  }
+
+  .card_5 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+  .card_5:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_6 {
+    width: 250px; /*1*/
+    margin-left: 10px ; /*auto; 2*/
+    margin-top: 35px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+    
+  }
+
+  .card_6 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_6:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_7 {
+    width: 250px; /*1*/
+    margin-left: 10px ; /*auto; 2*/
+    margin-top: 35px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_7 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_7:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_8 {
+    width: 250px; /*1*/
+    margin-left: 10px ; /*auto; 2*/
+    margin-top: 35px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_8 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_8:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+}
+
+/*Trois*/
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .card {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/ 
+    float: left;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+  }
+
+  .card a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+  .card:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card-image {
+    height: 250px;/*1*/
+    position: relative;/*2*/
+    overflow: hidden;/*3*/
+  }
+  .card-image img {
+    width: 150%;/*4*/
+      /*5 - Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(1);/*6*/
+      /*7 - Transition */
+    transition-property: filter width; 
+    transition-duration: .3s;
+    transition-timing-function: ease;
+  }
+
+  .card-body {
+    text-align: center;/*1*/
+    padding: 15px 20px; /*2*/
+    box-sizing: border-box; /*3*/
+}
+
+.card-date {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .card-title, .card-excerpt {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .card-date, .card-title {
+    text-align:center;
+    text-transform:uppercase;
+    font-weight: bold;
+  }
+  
+  .card-date, .card-excerpt {
+    color: #777;
+  }
+
+  .card_2 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+    
+  }
+
+  .card_2 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_2:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_3 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_3 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_3:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_4 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_4 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_4:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+
+  .card_5 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    margin-top: 35px;
+    float: left;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+  }
+
+  .card_5 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+  .card_5:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_6 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    margin-top: 35px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+    
+  }
+
+  .card_6 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_6:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_7 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    margin-top: 35px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_7 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_7:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_8 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    margin-top: 35px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_8 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_8:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+}
+
+/* Quatre*/
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .card {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/ 
+    float: left;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+  }
+
+  .card a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+  .card:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card-image {
+    height: 250px;/*1*/
+    position: relative;/*2*/
+    overflow: hidden;/*3*/
+  }
+  .card-image img {
+    width: 150%;/*4*/
+      /*5 - Méthode de centrage en fonction de la taille de l'image */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: grayscale(1);/*6*/
+      /*7 - Transition */
+    transition-property: filter width; 
+    transition-duration: .3s;
+    transition-timing-function: ease;
+  }
+
+  .card-body {
+    text-align: center;/*1*/
+    padding: 15px 20px; /*2*/
+    box-sizing: border-box; /*3*/
+}
+
+.card-date {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .card-title, .card-excerpt {
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .card-date, .card-title {
+    text-align:center;
+    text-transform:uppercase;
+    font-weight: bold;
+  }
+  
+  .card-date, .card-excerpt {
+    color: #777;
+  }
+
+  .card_2 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+    
+  }
+
+  .card_2 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_2:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_3 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_3 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_3:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_4 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_4 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_4:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+
+  .card_5 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    margin-top: 35px;
+    float: left;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+  }
+
+  .card_5 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+  .card_5:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_6 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    margin-top: 35px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+    
+  }
+
+  .card_6 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_6:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_7 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    margin-top: 35px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_7 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_7:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+
+  .card_8 {
+    width: 250px; /*1*/
+    margin-left: 15px ; /*auto; 2*/
+    margin-top: 35px;
+    background-color: white; /*3*/
+    box-shadow: 5px 5px 20px #999; /*4*/
+    float: left;
+  }
+
+  .card_8 a { /*5*/
+    color: #333; 
+    text-decoration: none;
+  }
+
+  .card_8:hover .card-image img { /*6*/
+    width: 160%;
+    filter: grayscale(0);
+  }
+}
